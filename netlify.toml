@@ -1,8 +1,10 @@
 # example netlify.toml
+
+## Changing or adding the base directory breaks it. 
 [build]
   command = "npm run build"
   functions = "netlify/functions"
-  publish = "/Users/zd3k/git/lab2git/out"
+  publish = "lab2git/out"
 
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.

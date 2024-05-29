@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2{
+  padding-left: 50px;
+}
+
+p {
+  padding-left: 100px;
+}
+
+/* Below is used to make the unordered list look more like a nav.
+For example, without list-style: none, a bullet point appears on far left*/
+ul {
+  list-style: none;
+}
+nav {
+  padding-left: 20px;
+  border: 10px solid white;
+  padding: 10px;
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.link1 {
+  margin: 75px;
+  text-decoration: none;
+  color: white;
+}
+
+.link2 {
+  margin: 75px;
+  text-decoration: none;
+  color: white;
+}
+
+.link3 {
+  margin: 75px;
+  text-decoration: none;
+  color: white;
+}
